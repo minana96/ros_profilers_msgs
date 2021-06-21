@@ -56,7 +56,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   StartPowerMeasurements.srv
+  StartResourceMeasurments.srv
   StopPowerMeasurements.srv
+  StopResourceMeasurements.srv
 )
 
 ## Generate actions in the 'action' folder
