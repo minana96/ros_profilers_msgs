@@ -14,7 +14,7 @@ The package consists of one directory, *srv*.
 ### srv
 
 The directory contains four service definitions:
-**StartPowerMeasurements.srv**: service for initiation of power consumption measurement collection;
-**StopPowerMeasurements.srv**: service for termination of power consumption measurement collection, which returns the obtained measurement results;
-**StartResourceMeasurments.srv**: service for initiation of CPU usage and RAM utilisation measurement collection;
-**StopResourceMeasurments.srv**: service for termination of CPU usage and RAM utilisation measurement collection, which returns the obtained measurement results.
+- **StartPowerMeasurements.srv**: service for initiation of power consumption measurement collection;
+- **StopPowerMeasurements.srv**: service for termination of power consumption measurement collection, which returns the obtained measurement results;
+- **StartResourceMeasurments.srv**: service for initiation of CPU usage and RAM utilisation measurement collection;
+- **StopResourceMeasurments.srv**: service for termination of CPU usage and RAM utilisation measurement collection, which returns the obtained measurement results.
